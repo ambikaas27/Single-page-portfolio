@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Lobster&family=Oleo+Script+Swash+Caps&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Dancing+Script:wght@400;500;600;700&family=Lobster&family=Oleo+Script+Swash+Caps&family=Satisfy&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.sidebar {
+    background-color: #3F2E3E;
+    width: auto;
+    font-family: 'Courgette', cursive;
+    height: auto;
+}
+
+.sidebar nav {
+    padding: 45px;
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 28px;
+    padding: 32px 0;
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+    color: white;
+}
+
+.main {
+    background-color: #efe1d1;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+}
+
+.infoContainer {
+    /* background:linear-gradient (black rgb(152, 5, 5)) */
+    height: 68vh;
+    width: 70vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devInfo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px 20px;
+
+}
+
+.hello {
+    font-size: 27px;
+    color: #A78295;
+    font-family: 'Courgette', cursive;
+}
+
+.name {
+    font-size: 50px;
+    color: #331D2C;
+    font-family: 'Courgette', cursive;
+    ;
+}
+
+.about {
+    font-size: 23px;
+    color: #A78295;
+    font-family: 'Courgette', cursive;
+}
+
+.moreabout {
+    font-size: 17px;
+    font-family: 'Courgette', cursive;
+    margin-top: 22px;
+}
+
+.buttons {
+    margin-top: 34px;
+}
+
+.btn {
+    background-color: #3F2E3E;
+    padding: 9px 14px;
+    color: white;
+    /* font-weight: bold; */
+    border-radius: 22px;
+    font-size: 20px;
+    margin: 0 3px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    color: #efe1d1; 
+    background-color: #A78295;
+
+}
+
+.btn-sm {
+    font-size: 15px;
+    padding: 8px 10px;
+    margin: 10px 0;
+}
+
+.devPic {
+    height: 68vh;
+
+}
+
+.contactform {
+    padding: 100px;
+    font-family: 'Courgette', cursive;
+}
+
+.contactform h1 {
+    font-family: 'Courgette', cursive;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.contactform form div {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactform form input {
+    padding: 4px;
+    border-radius: 5px;
+    margin: 6px;
+    width: 25vh;
+}
+
+#emailHelp {
+    font-size: 8px;
+    color: #3F2E3E;
+    margin: 0 5px;
+    padding: 4px 0 0 0;
+
+}
+
+#form-check {
+    flex-direction: row;
+}
+
+#form-check input {
+    width: 25px;
+    margin: 3px 0;
+}
+
+.blogItem {
+    font-size: 'Courgette', cursive;
+    margin: 28px;
+}
+
+.blogItem p {
+    font-family: 'Courgette', cursive;
+    margin: 28px;
+}
+
+.blogContainer h1 {
+    font-family: 'Courgette', cursive;
+    margin: 25px;
+}
